@@ -1,40 +1,83 @@
 .outline {
-  display        : inline-block;
-  letter-spacing : 2px;                /* 文字間 */
-  text-shadow    : 
-       2px  2px 1px #ffffff,
-      -2px  2px 1px #ffffff,
-       2px -2px 1px #ffffff,
-      -2px -2px 1px #ffffff,
-       2px  0px 1px #ffffff,
-       0px  2px 1px #ffffff,
-      -2px  0px 1px #000000,
-       0px -2px 1px #ffffff;        /* 文字の影 */
+    display: inline-block;
+    letter-spacing: 2px;
+    /* 文字間 */
+    text-shadow: 2px 2px 1px #ffffff,
+    -2px 2px 1px #ffffff,
+    2px -2px 1px #ffffff,
+    -2px -2px 1px #ffffff,
+    2px 0px 1px #ffffff,
+    0px 2px 1px #ffffff,
+    -2px 0px 1px #000000,
+    0px -2px 1px #ffffff;
+    /* 文字の影 */
 }
 
-.bigText{
-    font-size:20px;
+.bigText {
+    font-size: 2em;
 }
 
-.mediumText{
-    font-size : 15px;
+.mediumText {
+    font-size: 1em;
 }
 
-.smallText{
-    font-size : 10px;
+.smallText {
+    font-size: 0.5em;
 }
 
-.wordSpace{
-    word-spacing: 30px;
+.wordSpace {
+    word-spacing: 2em;
 }
 
-#Header{
+#Header {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 0.5em 0;
     background: #e0fff5;
+
 }
 
-#Header i{
+#Header i {
     color: #2f91d9;
     text-shadow: shadowColor(white);
+}
+
+#All {
+    padding: 0.5em 0.5em;
+    margin: 0em 0em;
+    background: #faedc0;
+}
+
+#Main {
+    padding: 0.5em 0.5em;
+    margin: 0em 0em;
+    background: #ffffff;
+}
+
+.box {
+    background-color: #ced7ff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #cafbce;
+    color: #0a8915;
+    margin: 2em 0;
+    padding: 0.3em;
+}
+
+.indent {
+    text-indent: 1em;
+    padding-left: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+div.slide img{
+    width: 100%;
+    height: auto;
+    max-width:1200px;
+    max-height:600px;
+}
+
+div.slide{
+    background-color: #a7a7a7;
 }

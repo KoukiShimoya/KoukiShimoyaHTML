@@ -97,3 +97,8 @@ div.slide{
     color:orange;
     border-bottom: solid 2px orange;
 }
+
+.anotherLink{
+    color:#ff8e84;
+    text-decoration:underline;
+}
